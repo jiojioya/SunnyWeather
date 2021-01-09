@@ -16,8 +16,9 @@ android {
     }
 
     buildTypes {
-        release {
+        release{
             minifyEnabled false
+            //加载默认混淆配置文件
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
